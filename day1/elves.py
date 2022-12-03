@@ -10,10 +10,8 @@ for line in lines:
         continue
 
     count += int(line)
-    
+
     if count > highest:
         highest = count
         count = 0
         print(highest)
-    continue
-
